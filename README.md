@@ -11,7 +11,7 @@
 
 
 # Question2
-## Step1 anonymisation:
+## Step1 Anonymisation:
 - It might need to install cryptography package (If you feel like).
 ```pip install cryptography```.
 - More detailed comments are labelled inside the scripts.
@@ -24,26 +24,26 @@
 
 ### Fernet
 - Run 
-```python anonymise_fernet.py```
+```python anonymise_fernet.py```.
 - It will output two files:<br>
 -- encrypted csv result, named 'anonymised_fernet_encrypted.csv'.<br>
 -- decrypted csv result, named 'anonymised_fernet_decrypted.csv'.<br>
 - The decrypted csv result is retrieved from the encrypted csv result with the same secret key.
 
-## Step2 big data processing
+## Step2 Big data processing:
 ### Generate 2G csv file:
-- Run ```python duplicated_data.py```, the script will duplicate output_csv.csv into a 2.016G csv file, named 'output_csv_duplicated.csv'
+- Run ```python duplicated_data.py```, the script will duplicate output_csv.csv into a 2.016G csv file, named 'output_csv_duplicated.csv'.
 - Roughly it takes 40 seconds.
 
 ### Switch the input file sources:
 #### Inside anonymise_hash.py:
-- uncomment lines 22-23, comment lines 20-21.
-- output file named: 'anonymized_hash_duplicated.csv'
-- roughly it takes 6 minutes  (347 seconds). Similar size with input file, around 2.1G.
+- Uncomment lines 22-23, comment lines 20-21.
+- Output file named: 'anonymized_hash_duplicated.csv'
+- Roughly it takes 6 minutes  (347 seconds). Similar size with input file, around 2.1G.
 
 #### Inside anonymise_fernet.py:
-- uncomment lines 33-35, comment lines 31-33.
-- encryption output file named: 'anonymized_fernet_encrypted_duplicated.csv'.
-- decryption output file named: 'anonymized_fernet_decrypted_duplicated.csv'.
+- Uncomment lines 33-35, comment lines 31-33.
+- Encryption output file named: 'anonymized_fernet_encrypted_duplicated.csv'.
+- Decryption output file named: 'anonymized_fernet_decrypted_duplicated.csv'.
 
 
