@@ -1,10 +1,10 @@
 # Question1
 - Run
-```python generate_fwf.py```
+```python generate_fwf.py```.
 - It will generate a fixed-width file using the provided spec file and sample data, named 'formatted_fwf.txt'.
 
 - Then run 
-```python parse_fwf_to_csv.py```
+```python parse_fwf_to_csv.py```.
 - It will generate a CSV file with the delimiter '|', named 'output_csv.csv'.
 - No extra library needs to be installed but Python 3.
 - More detailed comments are labelled inside the scripts.
@@ -19,7 +19,7 @@
 
 ### Hash
 - Run
-```python anonymise_hash.py```
+```python anonymise_hash.py```.
 - It will output an one-way encrypted csv result, named 'anonymised_hash.csv'.
 
 ### Fernet
@@ -43,7 +43,7 @@
 
 #### Inside anonymise_fernet.py:
 - uncomment lines 33-35, comment lines 31-33.
-- encryption output file named: 'anonymized_fernet_encrypted_duplicated.csv'
-- decryption output file named: 'anonymized_fernet_decrypted_duplicated.csv'
+- encryption output file named: 'anonymized_fernet_encrypted_duplicated.csv'.
+- decryption output file named: 'anonymized_fernet_decrypted_duplicated.csv'.
 
 
