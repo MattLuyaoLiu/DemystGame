@@ -1,0 +1,4 @@
+first_name,15,L
+last_name,15,L
+address,20,C
+date_of_birth,15,R
