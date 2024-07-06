@@ -44,6 +44,7 @@
 #### Inside anonymise_fernet.py:
 - Uncomment lines 33-35, comment lines 31-33.
 - Encryption output file named: 'anonymized_fernet_encrypted_duplicated.csv'.
+- Roughly it takes 131 minutes (7845 seconds). Encrypted file size is around 15.7G.
 - Decryption output file named: 'anonymized_fernet_decrypted_duplicated.csv'.
 
 
